@@ -1,0 +1,126 @@
+body{
+    background-color: rgb(122, 11, 11);
+    margin 0px;
+    }
+    .body-reg{
+        background:rgb(255, 255, 255);
+    }
+    .grid-reg{
+        background:white;
+        display: grid;
+        grid-template-columns: 18% 62% 10% 10%;
+    }
+.titulo-1{
+    color:rgb(251, 253, 253);
+    font-size: 50px;
+    margin-top: 50px;
+}
+.subtitulo{
+    color: rgb(255, 246, 127);
+    margin-top: 0px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 18% 62% 10% 10%;
+}
+.grid div{
+    background-color: #142c44;
+}
+.grid-mat-apoyo{
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
+.grid-mat-apoyo div{
+    background-color: #142c44;
+}
+.img{
+    padding: 0px;
+    margin-top: 20px;
+    margin-left: 40px; 
+}
+.img-1{
+    margin-top: 80px;
+}
+.img-1:hover{
+    width: 20%;
+    height: 20%;
+}
+.tarjeta-1:hover{
+    filter:blur(2px);
+}
+.tarjeta-2:hover{
+    filter:blur(2px);
+}
+.text-usuario{
+    font-family: Arial, Helvetica, sans-serif;
+    color:cornflowerblue;
+    margin-top: 0px;
+}
+.rest-pass{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    margin-left: 83%;
+    padding: 0px;
+}
+
+.btn{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    margin-top:20px;
+    margin-left: 3px;
+    background: transparent;
+    border: 3px solid #4495e2;
+    border-radius: 8px;
+}
+.btn:hover{
+    color: rgb(255, 255, 255);
+    background-image: -webkit-linear-gradient(top, #0e7fc5, #182099);
+    background-image: -moz-linear-gradient(top, #0e7fc5, #182099);
+    background-image: -ms-linear-gradient(top,#0e7fc5, #182099);
+    background-image: -o-linear-gradient(top, #0e7fc5, #182099);
+    background-image: linear-gradient(to bottom, #0e7fc5, #182099);
+    text-decoration: none;
+}
+.btn-2 {
+    background-color: rgb(40, 161, 241);
+    border: none;
+    border-radius: 8px;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: 0.3s;
+  }
+  
+  .btn-2:hover {
+    background-color: #0a19a3;
+    color: white;
+  }
+
+.grid-2{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+}
+.noticias{
+    margin-top: 5px;
+}
+.noticias:hover{
+    filter:opacity(.8);
+    width:25%;
+    transition: 5s;
+}
+.text-footer{
+    background-color:rgb(95, 7, 7);
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:aliceblue;
+    text-align: center;
+}
+.imgFondoReg{
+    align-self: auto;
+}
+.pie{
+    margin-top:100px;
+}
